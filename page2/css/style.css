@@ -1,0 +1,130 @@
+body{
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	width:75%;
+	margin:auto;
+	padding-top: 100px;
+}
+.section1{
+	width:40%;
+	background-color: orange;
+    float:left;
+    height:600px;
+}
+.section2{
+	overflow:hidden;
+	width:60%;
+	background-color:#2F4F4F;
+    float:left;
+    height:600px;
+    line-height: 2;
+}
+.color{
+	color:white;
+}
+.padding{
+	padding-left: 200px;
+	line-height:0.5;
+}
+.button{
+	background-color:orange;
+	border:1px solid black;
+	padding:10px;
+	border-radius: 20px;
+	outline:none;
+}
+
+.button:hover{
+	cursor: pointer;
+	background-color: darkorange;
+}
+.padding2{
+	padding-top: 100px;
+	padding-left: 30px;
+	color:white;
+
+}
+input[type=text]{
+	background-color:rgba(110, 110, 110,.6);
+	border:none;
+	padding:10px;
+	color:white; 
+	outline:none;
+	margin-bottom: 8px;
+	width:300px;
+}
+input[type=password]{
+	display:block;
+	background-color:rgb(110, 110, 110,.6);
+	border:none;
+	padding:10px;
+	outline:black;
+	width:300px;
+
+}
+input:focus{
+	background-color: rgba(110,110,110,.4)
+}
+.login{
+	background-color:#2F4F4F; 
+	font-size:15px;
+	color:orange;
+	border:1px solid orange;
+	border-radius:0 20px 20px 0;
+	padding:10px 70px;
+    padding-left: 30px;
+    outline:none;
+}
+
+.login:hover{
+    background-color:gray;
+    cursor: pointer;   
+
+}
+.color2{
+	color:gray;
+	font-size: 12px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.height{
+	margin-top:50px;
+	line-height: 0;
+
+}
+div.height p{
+	font-size: 14px;
+}
+input::placeholder{
+	color:white;
+}
